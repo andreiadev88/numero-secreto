@@ -1,6 +1,6 @@
-var numeroSecreto = parseInt(Math.random() * 1001);
+var numeroSecreto = parseInt(Math.random() * 101);
 while (chute != numeroSecreto) {
-    var chute = prompt('Escolha entre 0 e 1000');
+    var chute = prompt('Escolha entre 0 e 100');
         
         if (chute == numeroSecreto) {
             alert('Parabéns você acertou!');
